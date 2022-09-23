@@ -1,0 +1,32 @@
+{
+	"model": "Subscription",
+	"data": {
+		"general": [],
+		"development": [
+			{
+				"_id": "000000040000000000000000",
+				"name": "اشتراك لمدة 15 يوم",
+				"description": "Totam quod reprehenderit voluptatibus illo velit qui.",
+				"price": 100,
+				"discount": 0,
+				"duration": { "value": 15, "unit": "day" }
+			},
+			{
+				"_id": "000000040000000000000001",
+				"name": "اشتراك لمدة شهر",
+				"description": "Totam quod reprehenderit voluptatibus illo velit qui.",
+				"price": 200,
+				"discount": 0,
+				"duration": { "value": 1, "unit": "month" }
+			},
+			{
+				"_id": "000000040000000000000002",
+				"name": "اشتراك لمدة 3 أشهر",
+				"description": "Totam quod reprehenderit voluptatibus illo velit qui.",
+				"price": 350,
+				"discount": 0,
+				"duration": { "value": 3, "unit": "month" }
+			}
+		]
+	}
+}

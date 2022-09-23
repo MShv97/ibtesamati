@@ -1,0 +1,42 @@
+{
+	"name": "basmati",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/server.js",
+	"scripts": {
+		"production": "pm2 start src/server.js --name basmati",
+		"development": "pm2 start src/server.js --name basmati",
+		"delete": "pm2 delete basmati",
+		"start": "node --use-strict src/server.js",
+		"dev": "nodemon --use-strict src/server.js",
+		"seed": "node --trace-warnings src/Seeders",
+		"seedDev": "npm run seed -- -m clean -t 2.5 && npm run dev"
+	},
+	"keywords": [],
+	"author": "Basmati",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"commander": "^9.4.0",
+		"config-keys": "file:./config",
+		"database": "file:./src/internal_modules/database",
+		"emitter": "file:./src/internal_modules/emitter",
+		"express": "^4.18.1",
+		"express-async-errors": "^3.1.1",
+		"firebase-admin": "^11.0.1",
+		"joi": "^17.6.0",
+		"jsonwebtoken": "^8.5.1",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.4",
+		"mongoose": "^6.6.0",
+		"moyasar": "^0.5.1",
+		"passport": "^0.6.0",
+		"passport-custom": "^1.1.1",
+		"socket": "file:./src/internal_modules/socket",
+		"utils": "file:./src/internal_modules/utils"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19",
+		"prettier": "^2.7.1"
+	}
+}

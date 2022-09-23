@@ -1,0 +1,38 @@
+{
+	"model": "Product",
+	"data": {
+		"general": [],
+		"development": [
+			{
+				"_id": "000000030000000000000000",
+				"name": "ابتسامة هولود",
+				"description": "Totam quod reprehenderit voluptatibus illo velit qui.",
+				"price": 800,
+				"fullPrice": 1000,
+				"isActive": true,
+				"warranty": { "value": 1, "unit": "month" },
+				"images": ["000000010000000300000000", "000000010000000300000001", "000000010000000300000002"]
+			},
+			{
+				"_id": "000000030000000000000001",
+				"name": "تقويم أسنان",
+				"description": "Molestiae sed quas pariatur quisquam voluptatem fuga vel consectetur possimus.",
+				"price": 1000,
+				"fullPrice": 1200,
+				"isActive": true,
+				"warranty": { "value": 1, "unit": "month" },
+				"images": ["000000010000000300000003", "000000010000000300000004"]
+			},
+			{
+				"_id": "000000030000000000000002",
+				"name": "كشف",
+				"description": "Molestiae sed quas pariatur quisquam voluptatem fuga vel consectetur possimus.",
+				"price": 50,
+				"fullPrice": 300,
+				"isActive": false,
+				"warranty": null,
+				"images": ["000000010000000300000005"]
+			}
+		]
+	}
+}

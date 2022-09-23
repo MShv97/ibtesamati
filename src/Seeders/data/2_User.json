@@ -1,0 +1,53 @@
+{
+	"model": "User",
+	"data": {
+		"general": [],
+		"development": [
+			{
+				"_id": "000000020000000000000000",
+				"type": "System",
+				"fullName": "System",
+				"email": "sys_admin@Basmati.com",
+				"phone": "+9660000000000",
+				"password": "P@$$w0rd",
+				"avatar": "000000010000000200000000"
+			},
+			{
+				"_id": "000000020000000000000001",
+				"type": "Admin",
+				"fullName": "Admin",
+				"email": "admin1@Basmati.com",
+				"phone": "+9660000000001",
+				"password": "P@$$w0rd",
+				"avatar": "000000010000000200000001"
+			},
+			{
+				"_id": "000000020000000000000002",
+				"type": "Admin",
+				"fullName": "Admin 2",
+				"email": "admin2@Basmati.com",
+				"phone": "+9660000000002",
+				"password": "P@$$w0rd",
+				"avatar": "000000010000000200000002"
+			},
+			{
+				"_id": "000000020000000000000003",
+				"type": "Customer",
+				"fullName": "Customer 1",
+				"email": "Customer1@Basmati.com",
+				"phone": "+9660000000003",
+				"password": "P@$$w0rd",
+				"avatar": "000000010000000200000003"
+			},
+			{
+				"_id": "000000020000000000000004",
+				"type": "Customer",
+				"fullName": "Customer 2",
+				"email": "Customer2@Basmati.com",
+				"phone": "+9660000000004",
+				"password": "P@$$w0rd",
+				"avatar": "000000010000000200000004"
+			}
+		]
+	}
+}

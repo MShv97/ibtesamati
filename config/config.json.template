@@ -1,0 +1,48 @@
+{
+	"port": 7000,
+
+	"server": { "domain": "http://localhost:7000" },
+
+	"App": { "name": "Basmati" },
+
+	"website": { "domain": "https://website.com" },
+
+	"database": {
+		"mongodb": {
+			"uri": "mongodb://127.0.0.1:27017/?replicaSet=rs",
+			"dbName": "Basmati",
+			"debug": false
+		}
+	},
+
+	"services": { "sms": false },
+
+	"jwt": {
+		"accessToken": {
+			"key": "secret",
+			"expirationDuration": "20d"
+		},
+		"refreshToken": {
+			"key": "refreshSecret",
+			"expirationDuration": 5,
+			"expirationUnit": "days"
+		},
+		"emailVerification": {
+			"key": "secret",
+			"expirationDuration": "7d"
+		},
+		"passwordReset": {
+			"key": "secret",
+			"expirationDuration": "7d"
+		}
+	},
+
+	"bcrypt": { "rounds": 10 },
+
+	"moyasar": {
+		"secretKey": "sk_test_qABuk8ZhJAPHCzcf12LDjNcCs6BxmYXg5LDKLqvE",
+		"publishableKey": "pk_test_76AkMnn6fQUpPZyarqDxq84ygwZvNfzQV9HJ1ZWw",
+		"webhookSecret": "3aa89919dcfe9a5ceae1dd2037b0e050",
+		"callBackURL": "api/order/webhook"
+	}
+}
